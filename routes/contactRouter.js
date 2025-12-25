@@ -8,7 +8,7 @@ import {
   updateContactById,
 } from "../controllers/contactController.js";
 // import authantication middleware to check user is authenticated or not
-import { isAuthenticated } from "../Middlewares/auth.js";
+import { isAuthenticated } from "../middlewares/auth.js";
 
 // assigning router to an router variable
 const router = express.Router();
